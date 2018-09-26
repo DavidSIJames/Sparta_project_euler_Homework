@@ -6,13 +6,12 @@ num = 2520
 # num =230000000
 variable = 0
 while a == true do
-  p num
   for i in 1..20
     if num % i == 0
       variable += 1
     end
     if variable == 20
-      puts "final num #{num}"
+      puts " Problem 5: final num #{num}"
       a = false
     end
   end
@@ -31,4 +30,4 @@ square = i ** 2
 square_sum += square
 end
 sum_Squared = sum **2
-puts sum_Squared - square_sum
+puts "Problem 6: #{sum_Squared - square_sum}"
